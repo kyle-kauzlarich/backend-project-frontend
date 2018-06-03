@@ -39,12 +39,8 @@ class App extends Component {
 
   render() {
     {document.title = "Lambda Notes"}
-    if (this.state.port === 10) {
-      return ( <div>
-        <h1>LOADING...</h1>
-        {window.location.reload()} 
-        </div>); }
     return (
+      <div className='App'>
       <div className='App__container'>
         <div className='App__left'> {/* start of left side div */}
         <ButtonNav />
@@ -73,8 +69,8 @@ class App extends Component {
               component={Home}/>
         </div> {/* end of right side div */}
 
-      </div> // container div end
-      
+      </div> {/* container div end */}
+      </div>
     );
   }
 }
