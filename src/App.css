@@ -3,22 +3,24 @@
   display: flex;
   width: 100%;
   max-width: 800px;
+  background-image: url('https://picsum.photos/800/1600/?random');
 }
 
 .App__left {
   width: 25%;
   border: solid black 1px;
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.349);
 }
 
 .App__right {
   width: 75%;
   border: solid black 1px;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
+  
 }
 
 .App__left-buttons {
-  background-color: teal;
+  background-color: rgba(0, 128, 128, 0.700);
   border: solid 1px grey;
   max-width: 100px;
   height: 50px;
